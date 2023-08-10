@@ -1,0 +1,17 @@
+body {
+    background-color: lightblue;
+    font-style: normal;
+    font-family: Tahoma;
+    font-size: 20px;
+    color: black;
+}
+
+p {
+    background-color: lightskyblue;
+    color: black
+}
+
+img {
+    width: 200px;
+    align-content: center;
+}

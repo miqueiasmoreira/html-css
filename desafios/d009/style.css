@@ -1,0 +1,49 @@
+.pageindex {
+    align-content: center;
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    font-family: sans-serif;
+    border: solid;
+    border-radius: 20px;
+}
+
+.pagehtml {
+    align-content: center;
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    font-family: sans-serif;
+    border: solid;
+    border-radius: 20px;
+}
+
+.pagejs {
+    align-content: center;
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    font-family: sans-serif;
+    border: solid;
+    border-radius: 20px;
+}
+
+.pagehardware {
+    align-content: center;
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    font-family: sans-serif;
+    border: solid;
+    border-radius: 20px;
+}
+
+.pagepython {
+    align-content: center;
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    font-family: sans-serif;
+    border: solid;
+    border-radius: 20px;
+}

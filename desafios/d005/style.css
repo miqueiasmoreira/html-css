@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(255, 162, 41);
+    font-family: Tahoma;
+}
+
+.p1 {
+    font-family: Tahoma;
+    font-size: 17px;
+    text-align: justify;
+    text-align: left;
+    border: solid olive;
+    border-radius:7px;
+    width: 650px;
+    border-width: 2px;
+}
+
+.titulo01 {
+    font-family: sans-serif;
+}
