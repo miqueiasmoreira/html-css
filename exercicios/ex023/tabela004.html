@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 650px;
+        }
+
+        td, th {
+            border: 1px solid black;
+            width: 100px;
+            height: 30px;
+        }
+
+        td.dados {
+            text-align: left;
+            padding: 5px;
+            width: 50px;
+        }
+
+        th.titulos {
+            text-align: center;
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th class="titulos">Grupo</th>
+            <th class="titulos">Nomes</th>
+            <th class="titulos" colspan="3">Filmes</th>
+        </tr>
+        <tr>
+            <th class="titulos" rowspan="3">Mulheres</th>
+            <td class="dados">Ana Maria Santos</td>
+            <td class="dados">Alien</td>
+            <td class="dados">Rambo</td>
+            <td class="dados">Vingadores</td>
+        </tr>
+        <tr>
+            <td class="dados">Beatriz Souza</td>
+            <td class="dados">Hulk</td>
+            <td class="dados">Inception</td>
+            <td class="dados">Batman</td>
+        </tr>
+        <tr>
+            <td class="dados">Cláudia Melo</td>
+            <td class="dados">Oblivion</td>
+            <td class="dados">Matrix</td>
+            <td class="dados">Big Hero</td>
+        </tr>
+        <tr>
+            <th class="titulos" rowspan="3">Homens</th>
+            <td class="dados">Bruno Mendonça</td>
+            <td class="dados">Intocáveis</td>
+            <td class="dados">Amnésia</td>
+            <td class="dados">Gladiador</td>
+        </tr>
+        <tr>
+            <td class="dados">Daniel Lourenço</td>
+            <td class="dados">Wall-E</td>
+            <td class="dados">Oldboy</td>
+            <td class="dados">Dangal</td>
+        </tr>
+        <tr>
+            <td class="dados">Fabiano Mota</td>
+            <td class="dados">Star Wars 5</td>
+            <td class="dados">Taxi Driver</td>
+            <td class="dados">Toy Story</td>
+        </tr>
+    </table>
+</body>
+</html>
