@@ -31,17 +31,21 @@
             font-size: 1.1em;
             font-weight: bold;
         }
+
+        tfoot {
+            text-align: center;
+        }
     </style>
 </head>
 <body>
     <table>
         <tr>
-            <th class="titulos">Grupo</th>
-            <th class="titulos">Nomes</th>
-            <th class="titulos" colspan="3">Filmes</th>
+            <th class="titulos" scope="col">Grupo</th>
+            <th class="titulos" scope="col">Nomes</th>
+            <th class="titulos" colspan="3" scope="colgroup">Filmes</th>
         </tr>
         <tr>
-            <th class="titulos" rowspan="3">Mulheres</th>
+            <th class="titulos" rowspan="3" scope="rowgroup">Mulheres</th>
             <td class="dados">Ana Maria Santos</td>
             <td class="dados">Alien</td>
             <td class="dados">Rambo</td>
@@ -60,7 +64,7 @@
             <td class="dados">Big Hero</td>
         </tr>
         <tr>
-            <th class="titulos" rowspan="3">Homens</th>
+            <th class="titulos" rowspan="3" scope="rowgroup">Homens</th>
             <td class="dados">Bruno Mendonça</td>
             <td class="dados">Intocáveis</td>
             <td class="dados">Amnésia</td>
@@ -78,6 +82,10 @@
             <td class="dados">Taxi Driver</td>
             <td class="dados">Toy Story</td>
         </tr>
+        <tfoot>
+            <th colspan="4" scope="row">Total</th>
+            <td>1000</td>
+        </tfoot>
     </table>
 </body>
 </html>
